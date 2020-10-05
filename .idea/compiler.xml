@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-discovery-provider" />
+        <module name="nacos-discovery-consumer" />
+        <module name="dubbo-sample-api" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="dubbo-sample-api" target="1.8" />
+      <module name="nacos-discovery-consumer" target="1.8" />
+      <module name="nacos-discovery-provider" target="1.8" />
+      <module name="springcloud-alibaba-sample" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="dubbo-sample-api" options="-parameters" />
+      <module name="nacos-discovery-consumer" options="-parameters" />
+      <module name="nacos-discovery-provider" options="-parameters" />
+    </option>
+  </component>
+</project>

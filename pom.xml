@@ -23,6 +23,8 @@
         <module>dubbo-sample-api</module>
         <module>nacos-discovery-provider</module>
         <module>nacos-discovery-consumer</module>
+        <module>sentinel-provider</module>
+        <module>sentinel-gateway</module>
     </modules>
 
     <properties>
